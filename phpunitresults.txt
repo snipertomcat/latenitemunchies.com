@@ -1,0 +1,10 @@
+PHPUnit 5.6.4 by Sebastian Bergmann and contributors.
+
+
+                                                                                                        
+  [Symfony\Component\Debug\Exception\FatalErrorException]                                               
+  syntax error, unexpected '>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'  
+                                                                                                        
+
+
+Parse error: syntax error, unexpected '>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\corcel\app\OrderItem.php on line 58
