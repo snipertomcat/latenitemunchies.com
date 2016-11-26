@@ -1,10 +1,1314 @@
 PHPUnit 5.6.4 by Sebastian Bergmann and contributors.
 
+.EIlluminate\Database\Eloquent\Collection Object
+(
+    [items:protected] => Array
+        (
+            [0] => App\OrderItem Object
+                (
+                    [connection:protected] => wordpress
+                    [table:protected] => woocommerce_order_items
+                    [primaryKey:protected] => order_item_id
+                    [with:protected] => Array
+                        (
+                            [0] => meta
+                        )
 
-                                                                                                        
-  [Symfony\Component\Debug\Exception\FatalErrorException]                                               
-  syntax error, unexpected '>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'  
-                                                                                                        
+                    [fillable:protected] => Array
+                        (
+                            [0] => order_item_name
+                            [1] => order_item_type
+                            [2] => order_id
+                        )
 
+                    [keyType:protected] => int
+                    [perPage:protected] => 15
+                    [incrementing] => 1
+                    [timestamps] => 1
+                    [attributes:protected] => Array
+                        (
+                            [order_item_id] => 1
+                            [order_item_name] => Ben & Jerry's Milk and Cookies Ice Cream, 16 oz Carton
+                            [order_item_type] => line_item
+                            [order_id] => 49
+                        )
 
-Parse error: syntax error, unexpected '>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\corcel\app\OrderItem.php on line 58
+                    [original:protected] => Array
+                        (
+                            [order_item_id] => 1
+                            [order_item_name] => Ben & Jerry's Milk and Cookies Ice Cream, 16 oz Carton
+                            [order_item_type] => line_item
+                            [order_id] => 49
+                        )
+
+                    [relations:protected] => Array
+                        (
+                            [meta] => App\OrderItemMetaCollection Object
+                                (
+                                    [changedKeys:protected] => Array
+                                        (
+                                        )
+
+                                    [items:protected] => Array
+                                        (
+                                            [0] => App\OrderItemMeta Object
+                                                (
+                                                    [connection:protected] => wordpress
+                                                    [table:protected] => woocommerce_order_itemmeta
+                                                    [primaryKey:protected] => meta_id
+                                                    [timestamps] => 
+                                                    [fillable:protected] => Array
+                                                        (
+                                                            [0] => meta_key
+                                                            [1] => meta_value
+                                                            [2] => order_item_id
+                                                        )
+
+                                                    [appends:protected] => Array
+                                                        (
+                                                            [0] => value
+                                                        )
+
+                                                    [keyType:protected] => int
+                                                    [perPage:protected] => 15
+                                                    [incrementing] => 1
+                                                    [attributes:protected] => Array
+                                                        (
+                                                            [meta_id] => 1
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _qty
+                                                            [meta_value] => 3
+                                                        )
+
+                                                    [original:protected] => Array
+                                                        (
+                                                            [meta_id] => 1
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _qty
+                                                            [meta_value] => 3
+                                                        )
+
+                                                    [relations:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [hidden:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [visible:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [guarded:protected] => Array
+                                                        (
+                                                            [0] => *
+                                                        )
+
+                                                    [dates:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [dateFormat:protected] => 
+                                                    [casts:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [touches:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [observables:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [with:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [exists] => 1
+                                                    [wasRecentlyCreated] => 
+                                                )
+
+                                            [1] => App\OrderItemMeta Object
+                                                (
+                                                    [connection:protected] => wordpress
+                                                    [table:protected] => woocommerce_order_itemmeta
+                                                    [primaryKey:protected] => meta_id
+                                                    [timestamps] => 
+                                                    [fillable:protected] => Array
+                                                        (
+                                                            [0] => meta_key
+                                                            [1] => meta_value
+                                                            [2] => order_item_id
+                                                        )
+
+                                                    [appends:protected] => Array
+                                                        (
+                                                            [0] => value
+                                                        )
+
+                                                    [keyType:protected] => int
+                                                    [perPage:protected] => 15
+                                                    [incrementing] => 1
+                                                    [attributes:protected] => Array
+                                                        (
+                                                            [meta_id] => 2
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _tax_class
+                                                            [meta_value] => 
+                                                        )
+
+                                                    [original:protected] => Array
+                                                        (
+                                                            [meta_id] => 2
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _tax_class
+                                                            [meta_value] => 
+                                                        )
+
+                                                    [relations:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [hidden:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [visible:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [guarded:protected] => Array
+                                                        (
+                                                            [0] => *
+                                                        )
+
+                                                    [dates:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [dateFormat:protected] => 
+                                                    [casts:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [touches:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [observables:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [with:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [exists] => 1
+                                                    [wasRecentlyCreated] => 
+                                                )
+
+                                            [2] => App\OrderItemMeta Object
+                                                (
+                                                    [connection:protected] => wordpress
+                                                    [table:protected] => woocommerce_order_itemmeta
+                                                    [primaryKey:protected] => meta_id
+                                                    [timestamps] => 
+                                                    [fillable:protected] => Array
+                                                        (
+                                                            [0] => meta_key
+                                                            [1] => meta_value
+                                                            [2] => order_item_id
+                                                        )
+
+                                                    [appends:protected] => Array
+                                                        (
+                                                            [0] => value
+                                                        )
+
+                                                    [keyType:protected] => int
+                                                    [perPage:protected] => 15
+                                                    [incrementing] => 1
+                                                    [attributes:protected] => Array
+                                                        (
+                                                            [meta_id] => 3
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _product_id
+                                                            [meta_value] => 39
+                                                        )
+
+                                                    [original:protected] => Array
+                                                        (
+                                                            [meta_id] => 3
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _product_id
+                                                            [meta_value] => 39
+                                                        )
+
+                                                    [relations:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [hidden:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [visible:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [guarded:protected] => Array
+                                                        (
+                                                            [0] => *
+                                                        )
+
+                                                    [dates:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [dateFormat:protected] => 
+                                                    [casts:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [touches:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [observables:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [with:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [exists] => 1
+                                                    [wasRecentlyCreated] => 
+                                                )
+
+                                            [3] => App\OrderItemMeta Object
+                                                (
+                                                    [connection:protected] => wordpress
+                                                    [table:protected] => woocommerce_order_itemmeta
+                                                    [primaryKey:protected] => meta_id
+                                                    [timestamps] => 
+                                                    [fillable:protected] => Array
+                                                        (
+                                                            [0] => meta_key
+                                                            [1] => meta_value
+                                                            [2] => order_item_id
+                                                        )
+
+                                                    [appends:protected] => Array
+                                                        (
+                                                            [0] => value
+                                                        )
+
+                                                    [keyType:protected] => int
+                                                    [perPage:protected] => 15
+                                                    [incrementing] => 1
+                                                    [attributes:protected] => Array
+                                                        (
+                                                            [meta_id] => 4
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _variation_id
+                                                            [meta_value] => 0
+                                                        )
+
+                                                    [original:protected] => Array
+                                                        (
+                                                            [meta_id] => 4
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _variation_id
+                                                            [meta_value] => 0
+                                                        )
+
+                                                    [relations:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [hidden:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [visible:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [guarded:protected] => Array
+                                                        (
+                                                            [0] => *
+                                                        )
+
+                                                    [dates:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [dateFormat:protected] => 
+                                                    [casts:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [touches:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [observables:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [with:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [exists] => 1
+                                                    [wasRecentlyCreated] => 
+                                                )
+
+                                            [4] => App\OrderItemMeta Object
+                                                (
+                                                    [connection:protected] => wordpress
+                                                    [table:protected] => woocommerce_order_itemmeta
+                                                    [primaryKey:protected] => meta_id
+                                                    [timestamps] => 
+                                                    [fillable:protected] => Array
+                                                        (
+                                                            [0] => meta_key
+                                                            [1] => meta_value
+                                                            [2] => order_item_id
+                                                        )
+
+                                                    [appends:protected] => Array
+                                                        (
+                                                            [0] => value
+                                                        )
+
+                                                    [keyType:protected] => int
+                                                    [perPage:protected] => 15
+                                                    [incrementing] => 1
+                                                    [attributes:protected] => Array
+                                                        (
+                                                            [meta_id] => 5
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _line_subtotal
+                                                            [meta_value] => 20.97
+                                                        )
+
+                                                    [original:protected] => Array
+                                                        (
+                                                            [meta_id] => 5
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _line_subtotal
+                                                            [meta_value] => 20.97
+                                                        )
+
+                                                    [relations:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [hidden:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [visible:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [guarded:protected] => Array
+                                                        (
+                                                            [0] => *
+                                                        )
+
+                                                    [dates:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [dateFormat:protected] => 
+                                                    [casts:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [touches:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [observables:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [with:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [exists] => 1
+                                                    [wasRecentlyCreated] => 
+                                                )
+
+                                            [5] => App\OrderItemMeta Object
+                                                (
+                                                    [connection:protected] => wordpress
+                                                    [table:protected] => woocommerce_order_itemmeta
+                                                    [primaryKey:protected] => meta_id
+                                                    [timestamps] => 
+                                                    [fillable:protected] => Array
+                                                        (
+                                                            [0] => meta_key
+                                                            [1] => meta_value
+                                                            [2] => order_item_id
+                                                        )
+
+                                                    [appends:protected] => Array
+                                                        (
+                                                            [0] => value
+                                                        )
+
+                                                    [keyType:protected] => int
+                                                    [perPage:protected] => 15
+                                                    [incrementing] => 1
+                                                    [attributes:protected] => Array
+                                                        (
+                                                            [meta_id] => 6
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _line_total
+                                                            [meta_value] => 20.97
+                                                        )
+
+                                                    [original:protected] => Array
+                                                        (
+                                                            [meta_id] => 6
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _line_total
+                                                            [meta_value] => 20.97
+                                                        )
+
+                                                    [relations:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [hidden:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [visible:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [guarded:protected] => Array
+                                                        (
+                                                            [0] => *
+                                                        )
+
+                                                    [dates:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [dateFormat:protected] => 
+                                                    [casts:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [touches:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [observables:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [with:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [exists] => 1
+                                                    [wasRecentlyCreated] => 
+                                                )
+
+                                            [6] => App\OrderItemMeta Object
+                                                (
+                                                    [connection:protected] => wordpress
+                                                    [table:protected] => woocommerce_order_itemmeta
+                                                    [primaryKey:protected] => meta_id
+                                                    [timestamps] => 
+                                                    [fillable:protected] => Array
+                                                        (
+                                                            [0] => meta_key
+                                                            [1] => meta_value
+                                                            [2] => order_item_id
+                                                        )
+
+                                                    [appends:protected] => Array
+                                                        (
+                                                            [0] => value
+                                                        )
+
+                                                    [keyType:protected] => int
+                                                    [perPage:protected] => 15
+                                                    [incrementing] => 1
+                                                    [attributes:protected] => Array
+                                                        (
+                                                            [meta_id] => 7
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _line_subtotal_tax
+                                                            [meta_value] => 1.5728
+                                                        )
+
+                                                    [original:protected] => Array
+                                                        (
+                                                            [meta_id] => 7
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _line_subtotal_tax
+                                                            [meta_value] => 1.5728
+                                                        )
+
+                                                    [relations:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [hidden:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [visible:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [guarded:protected] => Array
+                                                        (
+                                                            [0] => *
+                                                        )
+
+                                                    [dates:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [dateFormat:protected] => 
+                                                    [casts:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [touches:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [observables:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [with:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [exists] => 1
+                                                    [wasRecentlyCreated] => 
+                                                )
+
+                                            [7] => App\OrderItemMeta Object
+                                                (
+                                                    [connection:protected] => wordpress
+                                                    [table:protected] => woocommerce_order_itemmeta
+                                                    [primaryKey:protected] => meta_id
+                                                    [timestamps] => 
+                                                    [fillable:protected] => Array
+                                                        (
+                                                            [0] => meta_key
+                                                            [1] => meta_value
+                                                            [2] => order_item_id
+                                                        )
+
+                                                    [appends:protected] => Array
+                                                        (
+                                                            [0] => value
+                                                        )
+
+                                                    [keyType:protected] => int
+                                                    [perPage:protected] => 15
+                                                    [incrementing] => 1
+                                                    [attributes:protected] => Array
+                                                        (
+                                                            [meta_id] => 8
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _line_tax
+                                                            [meta_value] => 1.5728
+                                                        )
+
+                                                    [original:protected] => Array
+                                                        (
+                                                            [meta_id] => 8
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _line_tax
+                                                            [meta_value] => 1.5728
+                                                        )
+
+                                                    [relations:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [hidden:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [visible:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [guarded:protected] => Array
+                                                        (
+                                                            [0] => *
+                                                        )
+
+                                                    [dates:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [dateFormat:protected] => 
+                                                    [casts:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [touches:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [observables:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [with:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [exists] => 1
+                                                    [wasRecentlyCreated] => 
+                                                )
+
+                                            [8] => App\OrderItemMeta Object
+                                                (
+                                                    [connection:protected] => wordpress
+                                                    [table:protected] => woocommerce_order_itemmeta
+                                                    [primaryKey:protected] => meta_id
+                                                    [timestamps] => 
+                                                    [fillable:protected] => Array
+                                                        (
+                                                            [0] => meta_key
+                                                            [1] => meta_value
+                                                            [2] => order_item_id
+                                                        )
+
+                                                    [appends:protected] => Array
+                                                        (
+                                                            [0] => value
+                                                        )
+
+                                                    [keyType:protected] => int
+                                                    [perPage:protected] => 15
+                                                    [incrementing] => 1
+                                                    [attributes:protected] => Array
+                                                        (
+                                                            [meta_id] => 9
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _line_tax_data
+                                                            [meta_value] => a:2:{s:5:"total";a:1:{i:5;s:6:"1.5728";}s:8:"subtotal";a:1:{i:5;s:6:"1.5728";}}
+                                                        )
+
+                                                    [original:protected] => Array
+                                                        (
+                                                            [meta_id] => 9
+                                                            [order_item_id] => 1
+                                                            [meta_key] => _line_tax_data
+                                                            [meta_value] => a:2:{s:5:"total";a:1:{i:5;s:6:"1.5728";}s:8:"subtotal";a:1:{i:5;s:6:"1.5728";}}
+                                                        )
+
+                                                    [relations:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [hidden:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [visible:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [guarded:protected] => Array
+                                                        (
+                                                            [0] => *
+                                                        )
+
+                                                    [dates:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [dateFormat:protected] => 
+                                                    [casts:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [touches:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [observables:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [with:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [exists] => 1
+                                                    [wasRecentlyCreated] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [hidden:protected] => Array
+                        (
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [guarded:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [dates:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] => 
+                    [casts:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [exists] => 1
+                    [wasRecentlyCreated] => 
+                )
+
+            [1] => App\OrderItem Object
+                (
+                    [connection:protected] => wordpress
+                    [table:protected] => woocommerce_order_items
+                    [primaryKey:protected] => order_item_id
+                    [with:protected] => Array
+                        (
+                            [0] => meta
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                            [0] => order_item_name
+                            [1] => order_item_type
+                            [2] => order_id
+                        )
+
+                    [keyType:protected] => int
+                    [perPage:protected] => 15
+                    [incrementing] => 1
+                    [timestamps] => 1
+                    [attributes:protected] => Array
+                        (
+                            [order_item_id] => 2
+                            [order_item_name] => US-CA-STATE TAX-1
+                            [order_item_type] => tax
+                            [order_id] => 49
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [order_item_id] => 2
+                            [order_item_name] => US-CA-STATE TAX-1
+                            [order_item_type] => tax
+                            [order_id] => 49
+                        )
+
+                    [relations:protected] => Array
+                        (
+                            [meta] => App\OrderItemMetaCollection Object
+                                (
+                                    [changedKeys:protected] => Array
+                                        (
+                                        )
+
+                                    [items:protected] => Array
+                                        (
+                                            [0] => App\OrderItemMeta Object
+                                                (
+                                                    [connection:protected] => wordpress
+                                                    [table:protected] => woocommerce_order_itemmeta
+                                                    [primaryKey:protected] => meta_id
+                                                    [timestamps] => 
+                                                    [fillable:protected] => Array
+                                                        (
+                                                            [0] => meta_key
+                                                            [1] => meta_value
+                                                            [2] => order_item_id
+                                                        )
+
+                                                    [appends:protected] => Array
+                                                        (
+                                                            [0] => value
+                                                        )
+
+                                                    [keyType:protected] => int
+                                                    [perPage:protected] => 15
+                                                    [incrementing] => 1
+                                                    [attributes:protected] => Array
+                                                        (
+                                                            [meta_id] => 10
+                                                            [order_item_id] => 2
+                                                            [meta_key] => rate_id
+                                                            [meta_value] => 5
+                                                        )
+
+                                                    [original:protected] => Array
+                                                        (
+                                                            [meta_id] => 10
+                                                            [order_item_id] => 2
+                                                            [meta_key] => rate_id
+                                                            [meta_value] => 5
+                                                        )
+
+                                                    [relations:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [hidden:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [visible:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [guarded:protected] => Array
+                                                        (
+                                                            [0] => *
+                                                        )
+
+                                                    [dates:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [dateFormat:protected] => 
+                                                    [casts:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [touches:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [observables:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [with:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [exists] => 1
+                                                    [wasRecentlyCreated] => 
+                                                )
+
+                                            [1] => App\OrderItemMeta Object
+                                                (
+                                                    [connection:protected] => wordpress
+                                                    [table:protected] => woocommerce_order_itemmeta
+                                                    [primaryKey:protected] => meta_id
+                                                    [timestamps] => 
+                                                    [fillable:protected] => Array
+                                                        (
+                                                            [0] => meta_key
+                                                            [1] => meta_value
+                                                            [2] => order_item_id
+                                                        )
+
+                                                    [appends:protected] => Array
+                                                        (
+                                                            [0] => value
+                                                        )
+
+                                                    [keyType:protected] => int
+                                                    [perPage:protected] => 15
+                                                    [incrementing] => 1
+                                                    [attributes:protected] => Array
+                                                        (
+                                                            [meta_id] => 11
+                                                            [order_item_id] => 2
+                                                            [meta_key] => label
+                                                            [meta_value] => State Tax
+                                                        )
+
+                                                    [original:protected] => Array
+                                                        (
+                                                            [meta_id] => 11
+                                                            [order_item_id] => 2
+                                                            [meta_key] => label
+                                                            [meta_value] => State Tax
+                                                        )
+
+                                                    [relations:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [hidden:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [visible:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [guarded:protected] => Array
+                                                        (
+                                                            [0] => *
+                                                        )
+
+                                                    [dates:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [dateFormat:protected] => 
+                                                    [casts:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [touches:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [observables:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [with:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [exists] => 1
+                                                    [wasRecentlyCreated] => 
+                                                )
+
+                                            [2] => App\OrderItemMeta Object
+                                                (
+                                                    [connection:protected] => wordpress
+                                                    [table:protected] => woocommerce_order_itemmeta
+                                                    [primaryKey:protected] => meta_id
+                                                    [timestamps] => 
+                                                    [fillable:protected] => Array
+                                                        (
+                                                            [0] => meta_key
+                                                            [1] => meta_value
+                                                            [2] => order_item_id
+                                                        )
+
+                                                    [appends:protected] => Array
+                                                        (
+                                                            [0] => value
+                                                        )
+
+                                                    [keyType:protected] => int
+                                                    [perPage:protected] => 15
+                                                    [incrementing] => 1
+                                                    [attributes:protected] => Array
+                                                        (
+                                                            [meta_id] => 12
+                                                            [order_item_id] => 2
+                                                            [meta_key] => compound
+                                                            [meta_value] => 0
+                                                        )
+
+                                                    [original:protected] => Array
+                                                        (
+                                                            [meta_id] => 12
+                                                            [order_item_id] => 2
+                                                            [meta_key] => compound
+                                                            [meta_value] => 0
+                                                        )
+
+                                                    [relations:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [hidden:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [visible:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [guarded:protected] => Array
+                                                        (
+                                                            [0] => *
+                                                        )
+
+                                                    [dates:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [dateFormat:protected] => 
+                                                    [casts:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [touches:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [observables:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [with:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [exists] => 1
+                                                    [wasRecentlyCreated] => 
+                                                )
+
+                                            [3] => App\OrderItemMeta Object
+                                                (
+                                                    [connection:protected] => wordpress
+                                                    [table:protected] => woocommerce_order_itemmeta
+                                                    [primaryKey:protected] => meta_id
+                                                    [timestamps] => 
+                                                    [fillable:protected] => Array
+                                                        (
+                                                            [0] => meta_key
+                                                            [1] => meta_value
+                                                            [2] => order_item_id
+                                                        )
+
+                                                    [appends:protected] => Array
+                                                        (
+                                                            [0] => value
+                                                        )
+
+                                                    [keyType:protected] => int
+                                                    [perPage:protected] => 15
+                                                    [incrementing] => 1
+                                                    [attributes:protected] => Array
+                                                        (
+                                                            [meta_id] => 13
+                                                            [order_item_id] => 2
+                                                            [meta_key] => tax_amount
+                                                            [meta_value] => 1.5728
+                                                        )
+
+                                                    [original:protected] => Array
+                                                        (
+                                                            [meta_id] => 13
+                                                            [order_item_id] => 2
+                                                            [meta_key] => tax_amount
+                                                            [meta_value] => 1.5728
+                                                        )
+
+                                                    [relations:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [hidden:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [visible:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [guarded:protected] => Array
+                                                        (
+                                                            [0] => *
+                                                        )
+
+                                                    [dates:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [dateFormat:protected] => 
+                                                    [casts:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [touches:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [observables:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [with:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [exists] => 1
+                                                    [wasRecentlyCreated] => 
+                                                )
+
+                                            [4] => App\OrderItemMeta Object
+                                                (
+                                                    [connection:protected] => wordpress
+                                                    [table:protected] => woocommerce_order_itemmeta
+                                                    [primaryKey:protected] => meta_id
+                                                    [timestamps] => 
+                                                    [fillable:protected] => Array
+                                                        (
+                                                            [0] => meta_key
+                                                            [1] => meta_value
+                                                            [2] => order_item_id
+                                                        )
+
+                                                    [appends:protected] => Array
+                                                        (
+                                                            [0] => value
+                                                        )
+
+                                                    [keyType:protected] => int
+                                                    [perPage:protected] => 15
+                                                    [incrementing] => 1
+                                                    [attributes:protected] => Array
+                                                        (
+                                                            [meta_id] => 14
+                                                            [order_item_id] => 2
+                                                            [meta_key] => shipping_tax_amount
+                                                            [meta_value] => 0
+                                                        )
+
+                                                    [original:protected] => Array
+                                                        (
+                                                            [meta_id] => 14
+                                                            [order_item_id] => 2
+                                                            [meta_key] => shipping_tax_amount
+                                                            [meta_value] => 0
+                                                        )
+
+                                                    [relations:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [hidden:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [visible:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [guarded:protected] => Array
+                                                        (
+                                                            [0] => *
+                                                        )
+
+                                                    [dates:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [dateFormat:protected] => 
+                                                    [casts:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [touches:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [observables:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [with:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [exists] => 1
+                                                    [wasRecentlyCreated] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [hidden:protected] => Array
+                        (
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [guarded:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [dates:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] => 
+                    [casts:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [exists] => 1
+                    [wasRecentlyCreated] => 
+                )
+
+        )
+
+)
+.                                                                 3 / 3 (100%)
+
+Time: 5.33 seconds, Memory: 37.50MB
+
+There was 1 error:
+
+1) OrderItemTest::testRetrievalByOrderId
+BadMethodCallException: Method findByOrderId does not exist.
+
+C:\xampp\htdocs\corcel\vendor\laravel\framework\src\Illuminate\Support\Traits\Macroable.php:74
+C:\xampp\htdocs\corcel\tests\OrderItemTest.php:28
+C:\xampp\htdocs\corcel\tests\OrderItemTest.php:28
+C:\xampp\php\pear\PHPUnit\TextUI\Command.php:176
+C:\xampp\php\pear\PHPUnit\TextUI\Command.php:129
+
+ERRORS!
+Tests: 3, Assertions: 2, Errors: 1.

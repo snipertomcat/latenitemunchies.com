@@ -52,9 +52,4 @@ class OrderItem extends Model
     {
         return $this->hasMany('App\OrderItemMeta', 'order_item_id');
     }
-
-    public function findByOrderId($orderId)
-    {
-        return $this->>select(['*'])->where('order_id', '=', $orderId)->orderBy('order_item_type')->query();
-    }
 }

@@ -20,9 +20,10 @@ class OrderItemTest extends TestCase
 
     public function testRetrievalByOrderId()
     {
-        $orderItem = new OrderItem();
         $orderId = 49;
-        print_r($orderItem->findByOrderId($orderId));
-        $this->assertNotEmpty($orderItem->findByOrderId($orderId));
+        $orderItem = App\OrderItem::where('order_id', $orderId)
+                        ->orderBy('order_item_id')
+                        ->get();
+        $this->assertNotEmpty($orderItem);
     }
 }
